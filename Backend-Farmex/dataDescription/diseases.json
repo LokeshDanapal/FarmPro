@@ -1,0 +1,192 @@
+{
+  "Apple___Apple_scab": {
+    "Description": "Apple scab is a fungal disease affecting apple trees, causing dark scabs on leaves, fruit, and twigs. It's caused by Venturia inaequalis, thriving in humid conditions, and spreading through spores. Prevention includes pruning infected branches, fungicides, and maintaining orchard air circulation.",
+    "Causes": "Apple scab is caused by the fungus Venturia inaequalis. It thrives in humid conditions and spreads through airborne spores.",
+    "Prevention": "Prevention involves regular pruning of infected branches, applying fungicides, and maintaining proper air circulation in the orchard."
+  },
+  "Apple___Black_rot": {
+    "Description": "Black rot, a fungal disease, primarily affects apple fruit, causing black, circular lesions with concentric rings. It's caused by Botryosphaeria obtusa, spreading through rain and wind. Prevention involves sanitation, fungicide applications, and removing infected fruit.",
+    "Causes": "Black rot is caused by the fungus Botryosphaeria obtusa. It spreads through rain and wind-borne spores.",
+    "Prevention": "Prevention includes proper sanitation, regular fungicide applications, and the removal of infected fruit to limit the disease's spread."
+  },
+  "Apple___Cedar_apple_rust": {
+    "Description": "Cedar apple rust affects apple and cedar trees, causing orange-yellow lesions on apple leaves. It requires both tree types to complete its life cycle, spreading via spores. Prevention includes removing nearby cedar trees and fungicides.",
+    "Causes": "Cedar apple rust is caused by a fungus that completes its life cycle on both apple and cedar trees. It spreads through spores.",
+    "Prevention": "Prevention involves removing cedar trees near apple orchards and applying fungicides to reduce the risk of infection in apple trees."
+  },
+  "Apple___healthy": {
+    "Description": "Healthy apple trees exhibit no disease symptoms and are achieved through proper orchard management practices.",
+    "Causes": "No specific causes, as this category represents healthy apple trees.",
+    "Prevention": "Maintaining proper orchard management practices, such as regular pruning and monitoring, helps keep apple trees healthy."
+  },
+  "Blueberry___healthy": {
+    "Description": "Healthy blueberry plants show no disease symptoms and are maintained through good cultivation practices.",
+    "Causes": "No specific causes, as this category represents healthy blueberry plants.",
+    "Prevention": "Implementing good cultivation practices, including proper watering and pest control, helps maintain the health of blueberry plants."
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "Description": "Powdery mildew is a fungal disease affecting cherry trees, causing white powdery spots on leaves and fruit due to various fungi in dry and humid conditions.",
+    "Causes": "Powdery mildew is caused by various species of fungi and thrives in dry and humid conditions, spreading through airborne spores.",
+    "Prevention": "Prevention includes regular pruning, fungicide application, and ensuring proper air circulation to reduce humidity in the orchard."
+  },
+  "Cherry_(including_sour)___healthy": {
+    "Description": "Healthy cherry trees exhibit no disease symptoms and are maintained through proper orchard management practices.",
+    "Causes": "No specific causes, as this category represents healthy cherry trees.",
+    "Prevention": "Maintaining proper orchard management practices, such as regular pruning and monitoring, helps keep cherry trees healthy."
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "Description": "Cercospora leaf spot, also known as gray leaf spot, is a fungal disease affecting corn (maize) plants, causing small, rectangular lesions on leaves. It's caused by the fungus Cercospora zeae-maydis and spreads through spores. Prevention involves crop rotation, planting resistant varieties, and using fungicides.",
+    "Causes": "Cercospora leaf spot is caused by the fungus Cercospora zeae-maydis and spreads through airborne spores.",
+    "Prevention": "Prevention strategies include implementing crop rotation, choosing resistant corn varieties, and applying fungicides when necessary."
+  },
+  "Corn_(maize)__Common_rust": {
+    "Description": "Common rust is a fungal disease affecting corn (maize) plants, causing small, rusty-colored pustules on leaves. It's caused by the fungus Puccinia sorghi and spreads through windborne spores. Prevention includes planting resistant varieties and using fungicides when necessary.",
+    "Causes": "Common rust is caused by the fungus Puccinia sorghi, and it spreads through windborne spores.",
+    "Prevention": "Prevention strategies involve planting corn varieties with resistance to common rust and applying fungicides as needed to control the disease."
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "Description": "Northern leaf blight is a fungal disease affecting corn (maize) plants, causing long, elliptical lesions on leaves. It's caused by the fungus Exserohilum turcicum and thrives in humid conditions. Prevention involves crop rotation, selecting resistant hybrids, and proper field sanitation.",
+    "Causes": "Northern leaf blight is caused by the fungus Exserohilum turcicum, which thrives in humid conditions.",
+    "Prevention": "Prevention strategies include practicing crop rotation, selecting corn hybrids with resistance, and maintaining good field sanitation to reduce disease pressure."
+  },
+  "Corn_(maize)___healthy": {
+    "Description": "Healthy corn (maize) plants exhibit no disease symptoms and are maintained through good agricultural practices.",
+    "Causes": "No specific causes, as this category represents healthy corn (maize) plants.",
+    "Prevention": "Maintaining good agricultural practices, such as proper crop rotation and pest management, helps keep corn plants healthy."
+  },
+  "Grape___Black_rot": {
+    "Description": "Black rot is a fungal disease affecting grapevines, causing dark lesions on leaves and fruit. It's caused by the fungus Guignardia bidwellii and spreads through rain and wind. Prevention involves pruning infected vines, using fungicides, and proper canopy management.",
+    "Causes": "Black rot is caused by the fungus Guignardia bidwellii, and it spreads through spores carried by rain and wind.",
+    "Prevention": "Prevention strategies include pruning infected vines, using fungicides during the growing season, and managing the vine canopy to reduce humidity and promote airflow."
+  },
+  "Grape__Esca(Black_Measles)": {
+    "Description": "Esca, also known as black measles, is a fungal disease affecting grapevines, causing wilting, yellowing, and black streaks in the wood. It's caused by various fungi, including Phaeoacremonium spp. and Phaeomoniella chlamydospora. Prevention includes pruning and removing infected wood, using fungicides, and proper vineyard management.",
+    "Causes": "Esca is caused by various fungi, including Phaeoacremonium spp. and Phaeomoniella chlamydospora, and spreads through spores.",
+    "Prevention": "Prevention strategies include pruning and removing infected wood, applying fungicides to protect pruning wounds, and implementing proper vineyard management practices."
+  },
+  "Grape__Leaf_blight(Isariopsis_Leaf_Spot)": {
+    "Description": "Leaf blight, also known as Isariopsis leaf spot, is a fungal disease affecting grapevines, causing small brown spots on leaves. It's caused by the fungus Isariopsis spp. and thrives in wet conditions. Prevention involves proper canopy management, fungicide application, and reducing humidity.",
+    "Causes": "Leaf blight is caused by the fungus Isariopsis spp., which thrives in wet conditions and spreads through spores.",
+    "Prevention": "Prevention strategies include proper canopy management to improve air circulation, regular fungicide applications, and measures to reduce humidity in the vineyard."
+  },
+  "Grape___healthy": {
+    "Description": "Healthy grapevines exhibit no disease symptoms and are maintained through good vineyard practices.",
+    "Causes": "No specific causes, as this category represents healthy grapevines.",
+    "Prevention": "Implementing good vineyard practices, including proper pruning, disease monitoring, and pest management, helps maintain the health of grapevines."
+  },
+  "Orange__Haunglongbing(Citrus_greening)": {
+    "Description": "Huanglongbing (Citrus greening) is a bacterial disease affecting citrus trees, causing yellowing of leaves and bitter, misshapen fruit. It's caused by the bacterium Candidatus Liberibacter spp. and is primarily spread by insect vectors. Prevention involves controlling vector populations, removing infected trees, and planting disease-free stock.",
+    "Causes": "Huanglongbing is caused by the bacterium Candidatus Liberibacter spp., which is primarily transmitted by insect vectors such as the Asian citrus psyllid.",
+    "Prevention": "Prevention strategies include controlling insect vector populations, conducting regular inspections for disease symptoms, and planting citrus trees from disease-free sources."
+  },
+  "Peach___Bacterial_spot": {
+    "Description": "Bacterial spot is a bacterial disease affecting peach trees, causing dark lesions with a yellow halo on leaves and fruit. It's caused by the bacterium Xanthomonas arboricola pv. pruni and spreads through rain and wind-driven rain. Prevention includes pruning infected branches, copper-based sprays, and avoiding overhead irrigation.",
+    "Causes": "Bacterial spot is caused by the bacterium Xanthomonas arboricola pv. pruni, which spreads through splashing rain and wind-driven rain.",
+    "Prevention": "Prevention strategies include pruning infected branches to remove sources of the bacterium, applying copper-based sprays, and using drip irrigation to avoid overhead watering."
+  },
+  "Peach___healthy": {
+    "Description": "Healthy peach trees exhibit no disease symptoms and are maintained through proper orchard management practices.",
+    "Causes": "No specific causes, as this category represents healthy peach trees.",
+    "Prevention": "Maintaining proper orchard management practices, such as regular pruning, monitoring, and pest control, helps keep peach trees healthy."
+  },
+  "Pepper,bell__Bacterial_spot": {
+    "Description": "Bacterial spot is a bacterial disease affecting bell pepper plants, causing small, dark lesions on leaves and fruit. It's caused by the bacterium Xanthomonas campestris pv. vesicatoria and spreads through rain and splashing water. Prevention includes using disease-resistant varieties, crop rotation, and copper-based sprays.",
+    "Causes": "Bacterial spot is caused by the bacterium Xanthomonas campestris pv. vesicatoria, which spreads through rain and splashing water.",
+    "Prevention": "Prevention strategies include planting disease-resistant pepper varieties, practicing crop rotation, and applying copper-based sprays to reduce bacterial spot infection."
+  },
+  "Pepper,bell__healthy": {
+    "Description": "Healthy bell pepper plants exhibit no disease symptoms and are maintained through good cultivation practices.",
+    "Causes": "No specific causes, as this category represents healthy bell pepper plants.",
+    "Prevention": "Implementing good cultivation practices, such as proper spacing and pest control, helps maintain the health of bell pepper plants."
+  },
+  "Potato___Early_blight": {
+    "Description": "Early blight is a fungal disease affecting potato plants, causing dark lesions with concentric rings on leaves and stems. It's caused by the fungus Alternaria solani and spreads through spores. Prevention involves crop rotation, removing infected plant debris, and fungicide application.",
+    "Causes": "Early blight is caused by the fungus Alternaria solani, which spreads through spores and infects leaves and stems of potato plants.",
+    "Prevention": "Prevention strategies include implementing crop rotation, removing infected plant debris from the field, and applying fungicides to protect potato plants from early blight."
+  },
+  "Potato___Late_blight": {
+    "Description": "Late blight is a fungal disease affecting potato plants, causing water-soaked lesions on leaves, stems, and tubers. It's caused by the oomycete pathogen Phytophthora infestans and spreads through spores in humid conditions. Prevention includes fungicide application, planting resistant varieties, and avoiding overhead irrigation.",
+    "Causes": "Late blight is caused by the oomycete pathogen Phytophthora infestans, which spreads through spores in humid conditions and can infect various parts of potato plants.",
+    "Prevention": "Prevention strategies include timely fungicide applications, planting potato varieties with resistance to late blight, and using drip irrigation to reduce leaf wetness."
+  },
+  "Potato___healthy": {
+    "Description": "Healthy potato plants exhibit no disease symptoms and are maintained through good agricultural practices.",
+    "Causes": "No specific causes, as this category represents healthy potato plants.",
+    "Prevention": "Maintaining good agricultural practices, including proper crop rotation, pest management, and soil health, helps keep potato plants healthy."
+  },
+  "Raspberry___healthy": {
+    "Description": "Healthy raspberry plants exhibit no disease symptoms and are maintained through good cultivation practices.",
+    "Causes": "No specific causes, as this category represents healthy raspberry plants.",
+    "Prevention": "Implementing good cultivation practices, such as proper pruning and disease monitoring, helps maintain the health of raspberry plants."
+  },
+  "Soybean___healthy": {
+    "Description": "Healthy soybean plants exhibit no disease symptoms and are maintained through good agricultural practices.",
+    "Causes": "No specific causes, as this category represents healthy soybean plants.",
+    "Prevention": "Implementing good agricultural practices, including proper crop rotation and pest management, helps keep soybean plants healthy."
+  },
+  "Squash___Powdery_mildew": {
+    "Description": "Powdery mildew is a fungal disease affecting squash plants, causing white powdery spots on leaves and fruit. It's caused by various species of fungi and thrives in dry conditions with high humidity. Prevention involves proper spacing of plants, fungicide application, and reducing humidity.",
+    "Causes": "Powdery mildew is caused by various species of fungi that thrive in dry conditions with high humidity. It spreads through airborne spores.",
+    "Prevention": "Prevention strategies include maintaining proper plant spacing to improve air circulation, regular fungicide applications, and measures to reduce humidity in squash gardens."
+  },
+  "Strawberry___Leaf_scorch": {
+    "Description": "Leaf scorch is a disease affecting strawberry plants, causing browning and necrosis of leaf margins. It's caused by the bacterium Xanthomonas fragariae and spreads through rain and splashing water. Prevention includes using disease-free planting material, proper irrigation, and copper-based sprays.",
+    "Causes": "Leaf scorch is caused by the bacterium Xanthomonas fragariae, which spreads through splashing rain and contaminated plant material.",
+    "Prevention": "Prevention strategies include using disease-free planting material, ensuring proper irrigation practices, and applying copper-based sprays to protect strawberry plants from leaf scorch."
+  },
+  "Strawberry___healthy": {
+    "Description": "Healthy strawberry plants exhibit no disease symptoms and are maintained through good cultivation practices.",
+    "Causes": "No specific causes, as this category represents healthy strawberry plants.",
+    "Prevention": "Implementing good cultivation practices, such as proper spacing and disease monitoring, helps maintain the health of strawberry plants."
+  },
+  "Tomato___Bacterial_spot": {
+    "Description": "Bacterial spot is a bacterial disease affecting tomato plants, causing dark lesions with a yellow halo on leaves and fruit. It's caused by the bacterium Xanthomonas campestris pv. vesicatoria and spreads through rain and splashing water. Prevention includes using disease-resistant varieties, crop rotation, and copper-based sprays.",
+    "Causes": "Bacterial spot is caused by the bacterium Xanthomonas campestris pv. vesicatoria, which spreads through splashing rain and contaminated plant material.",
+    "Prevention": "Prevention strategies include planting disease-resistant tomato varieties, practicing crop rotation, and applying copper-based sprays to reduce bacterial spot infection."
+  },
+  "Tomato___Early_blight": {
+    "Description": "Early blight is a fungal disease affecting tomato plants, causing dark lesions with concentric rings on leaves and stems. It's caused by the fungus Alternaria solani and spreads through spores. Prevention involves crop rotation, removing infected plant debris, and fungicide application.",
+    "Causes": "Early blight is caused by the fungus Alternaria solani, which spreads through spores and infects leaves and stems of tomato plants.",
+    "Prevention": "Prevention strategies include implementing crop rotation, removing infected plant debris, and applying fungicides to protect tomato plants from early blight."
+  },
+  "Tomato___Late_blight": {
+    "Description": "Late blight is a fungal disease affecting tomato plants, causing water-soaked lesions on leaves, stems, and fruit. It's caused by the oomycete pathogen Phytophthora infestans and spreads through spores in humid conditions. Prevention includes fungicide application, planting resistant varieties, and avoiding overhead irrigation.",
+    "Causes": "Late blight is caused by the oomycete pathogen Phytophthora infestans, which spreads through spores and thrives in humid conditions, infecting various parts of tomato plants.",
+    "Prevention": "Prevention strategies include timely fungicide applications, choosing tomato varieties with resistance to late blight, and using drip irrigation to reduce leaf wetness."
+  },
+  "Tomato___Leaf_Mold": {
+    "Description": "Leaf mold is a fungal disease affecting tomato plants, causing yellowing and curling of leaves with grayish-white fuzzy growth on the undersides. It's caused by the fungus Fulvia fulva and thrives in humid conditions. Prevention involves proper spacing of plants, good ventilation, and fungicide application.",
+    "Causes": "Leaf mold is caused by the fungus Fulvia fulva, which thrives in humid conditions and spreads through airborne spores.",
+    "Prevention": "Prevention strategies include maintaining proper plant spacing, ensuring good ventilation in the greenhouse or garden, and applying fungicides as necessary to control leaf mold."
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "Description": "Septoria leaf spot is a fungal disease affecting tomato plants, causing small, circular lesions with dark borders on leaves. It's caused by the fungus Septoria lycopersici and spreads through splashing water. Prevention includes proper plant spacing, removing infected leaves, and using fungicides.",
+    "Causes": "Septoria leaf spot is caused by the fungus Septoria lycopersici, which spreads through spores carried by splashing rain and contaminated plant material.",
+    "Prevention": "Prevention strategies include maintaining proper plant spacing to improve air circulation, removing infected leaves promptly, and applying fungicides to protect tomato plants from Septoria leaf spot."
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "Description": "Two-spotted spider mites are pests affecting tomato plants, causing stippling and webbing on leaves. They are primarily caused by the mites Tetranychus urticae and Tetranychus cinnabarinus, which thrive in dry conditions. Prevention involves using predatory mites, regular scouting, and maintaining adequate humidity.",
+    "Causes": "Two-spotted spider mites are primarily caused by the mites Tetranychus urticae and Tetranychus cinnabarinus, which thrive in dry conditions with low humidity.",
+    "Prevention": "Prevention strategies include introducing predatory mites to control spider mite populations, regularly scouting for early signs of infestation, and ensuring adequate humidity to deter spider mite activity."
+  },
+  "Tomato___Target_Spot": {
+    "Description": "Target spot is a fungal disease affecting tomato plants, causing concentric rings and a target-like appearance on leaves. It's caused by the fungus Corynespora cassiicola and spreads through spores. Prevention includes proper plant spacing, removing infected leaves, and using fungicides.",
+    "Causes": "Target spot is caused by the fungus Corynespora cassiicola, which spreads through spores carried by wind and rain.",
+    "Prevention": "Prevention strategies include maintaining proper plant spacing, promptly removing infected leaves, and applying fungicides to protect tomato plants from target spot."
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "Description": "Tomato yellow leaf curl virus (TYLCV) is a viral disease affecting tomato plants, causing curling and yellowing of leaves, stunted growth, and reduced fruit production. It's transmitted by whiteflies. Prevention includes controlling whitefly populations, using disease-resistant tomato varieties, and avoiding infected plants.",
+    "Causes": "Tomato yellow leaf curl virus (TYLCV) is caused by a group of begomoviruses and is primarily transmitted by whiteflies.",
+    "Prevention": "Prevention strategies include controlling whitefly populations, planting disease-resistant tomato varieties, and promptly removing and disposing of infected plants to prevent the spread of TYLCV."
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "Description": "Tomato mosaic virus (ToMV) is a viral disease affecting tomato plants, causing mosaic patterns on leaves, stunted growth, and reduced fruit quality. It's transmitted through contact, including contaminated tools and hands. Prevention includes using disease-free seeds, sanitation, and removing infected plants.",
+    "Causes": "Tomato mosaic virus (ToMV) is caused by the Tobacco mosaic virus and spreads through contact, including contaminated tools and hands.",
+    "Prevention": "Prevention strategies include using disease-free tomato seeds, practicing good sanitation to prevent virus transmission, and promptly removing and disposing of infected plants."
+  },
+  "Tomato___healthy": {
+    "Description": "Healthy tomato plants exhibit no disease symptoms and are maintained through good cultivation practices.",
+    "Causes": "No specific causes, as this category represents healthy tomato plants.",
+    "Prevention": "Implementing good cultivation practices, such as proper spacing, irrigation, and pest management, helps maintain the health of tomato plants."
+  }
+}

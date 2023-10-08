@@ -1,0 +1,57 @@
+{
+  "Clay loam": {
+    "Description": "Clay loam soil is a well-balanced soil texture with a mixture of sand, silt, and clay. It has good water retention and drainage capabilities. This versatile soil type is suitable for crops such as wheat, corn, soybeans, beans, and cotton. To maintain healthy clay loam soil, add organic matter, avoid compaction through proper cultivation practices, and implement crop rotation for sustainable farming.",
+    "Suitable Crops": ["Wheat", "Corn", "Soybeans", "Beans", "Cotton"],
+    "Maintenance": "Maintain clay loam soil health by adding organic matter, avoiding compaction, and practicing crop rotation."
+  },
+  "Clay soil": {
+    "Description": "Clay soil is heavy and retains water well, but it can become compacted and drain poorly. It's best suited for moisture-loving crops like rice, sugarcane, taro, watermelon, and okra. To improve clay soil, incorporate organic matter, use raised beds to improve aeration, and avoid over-watering to prevent waterlogging.",
+    "Suitable Crops": ["Rice", "Sugarcane", "Taro", "Watermelon", "Okra"],
+    "Maintenance": "Enhance clay soil by adding organic matter, utilizing raised beds, and avoiding excessive watering."
+  },
+  "Loam": {
+    "Description": "Loam soil is a perfect blend of sand, silt, and clay, offering excellent fertility, good drainage, and moisture retention. This makes it ideal for a wide range of crops, including tomatoes, lettuce, carrots, apples, and peppers. To maintain healthy loam soil, enrich it with compost for organic matter, practice crop rotation to prevent nutrient depletion, and minimize excessive tilling to avoid compaction.",
+    "Suitable Crops": ["Tomatoes", "Lettuce", "Carrots", "Apples", "Peppers"],
+    "Maintenance": "Maintain loam soil by adding compost, practicing crop rotation, and minimizing over-tilling."
+  },
+  "Loamy Sand": {
+    "Description": "Loamy sand soil has a high sand content, providing good drainage but lower fertility. It suits crops like radishes, melons, cucumbers, peanuts, and barley. To enhance loamy sand soil, enrich it with organic matter, provide regular irrigation for water retention, and adjust pH levels if necessary to optimize nutrient availability.",
+    "Suitable Crops": ["Radishes", "Melons", "Cucumbers", "Peanuts", "Barley"],
+    "Maintenance": "Enhance loamy sand soil with organic matter, proper irrigation, and pH adjustment."
+  },
+  "Peat": {
+    "Description": "Peat soil is rich in organic matter and retains moisture well, but it can be acidic and low in nutrients. It's ideal for acid-loving plants such as blueberries, cranberries, azaleas, and rhododendrons. To maintain healthy peat soil, consider adding lime to reduce acidity, incorporate organic material like peat moss, and supplement with essential nutrients.",
+    "Suitable Crops": ["Blueberries", "Cranberries", "Azaleas", "Rhododendrons", "Ferns"],
+    "Maintenance": "Improve peat soil by reducing acidity with lime, incorporating peat moss, and providing essential nutrients."
+  },
+  "Sandy Clay Loam": {
+    "Description": "Sandy clay loam soil has a balanced texture but with more sand, providing good drainage and fertility. It suits crops such as potatoes, soybeans, peaches, grapes, and alfalfa. To maintain sandy clay loam soil, add organic matter and practice crop rotation for optimal soil health.",
+    "Suitable Crops": ["Potatoes", "Soybeans", "Peaches", "Grapes", "Alfalfa"],
+    "Maintenance": "Maintain sandy clay loam soil by adding organic matter and practicing crop rotation."
+  },
+  "Sandy clay": {
+    "Description": "Sandy clay soil has a higher clay content, which can lead to poor drainage and compaction. It's suitable for crops like rice, barley, sugar beets, flax, and buckwheat. To improve sandy clay soil, add organic matter, use cover crops to enhance soil structure, and avoid over-tilling to prevent compaction.",
+    "Suitable Crops": ["Rice", "Barley", "Sugar Beets", "Flax", "Buckwheat"],
+    "Maintenance": "Enhance sandy clay soil by adding organic matter, using cover crops, and avoiding over-tilling."
+  },
+  "Sandy-Loam": {
+    "Description": "Sandy-loam soil is well-draining with a good mixture of sand and organic matter, making it fertile. It suits crops like corn, beans, carrots, lettuce, and strawberries. To maintain sandy-loam soil, add compost for organic nutrients, apply mulch for moisture retention, and ensure proper irrigation.",
+    "Suitable Crops": ["Corn", "Beans", "Carrots", "Lettuce", "Strawberries"],
+    "Maintenance": "Maintain sandy-loam soil by adding compost, mulching, and proper irrigation."
+  },
+  "Silt Loam": {
+    "Description": "Silt loam soil is fertile and retains moisture well but can become compacted over time. It's suitable for crops like cabbage, peas, spinach, pumpkins, and onions. To prevent compaction in silt loam soil, practice proper tilling techniques and maintain fertility with organic matter.",
+    "Suitable Crops": ["Cabbage", "Peas", "Spinach", "Pumpkins", "Onions"],
+    "Maintenance": "Prevent compaction in silt loam soil with proper tilling and maintain fertility with organic matter."
+  },
+  "Silty Clay loam": {
+    "Description": "Silty clay loam soil is a combination of clay and silt, offering good fertility but potential compaction. It suits crops like apples, cherries, plums, grapes, and blueberries. To prevent compaction in silty clay loam soil and enhance fertility, incorporate organic amendments and practice proper soil management.",
+    "Suitable Crops": ["Apples", "Cherries", "Plums", "Grapes", "Blueberries"],
+    "Maintenance": "Prevent compaction in silty clay loam soil and enhance fertility with organic amendments."
+  },
+  "Silty clay soil": {
+    "Description": "Silty clay soil is heavy and holds moisture well but can be prone to compaction and poor drainage. It's suitable for crops like rice, cranberries, cabbage, soybeans, and rhubarb. To improve silty clay soil, add organic matter, use raised beds for better drainage, and ensure proper soil structure.",
+    "Suitable Crops": ["Rice", "Cranberries", "Cabbage", "Soybeans", "Rhubarb"],
+    "Maintenance": "Enhance silty clay soil by adding organic matter, using raised beds, and ensuring proper drainage."
+  }
+}
