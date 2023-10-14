@@ -18,7 +18,7 @@ const Singlefeed = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    Axios.post("http://localhost:5000/api2/showAnswers", {
+    Axios.post("https://farmpro.onrender.com/api2/showAnswers", {
       question: data?.question,
     }).then((response) => {
       if (response?.data.answers) {
@@ -47,7 +47,7 @@ const Singlefeed = () => {
 
     setComment(async (item) => {
       try {
-        await Axios.post("http://localhost:5000/api2/answers", item)
+        await Axios.post("https://farmpro.onrender.com/api2/answers", item)
           .then((response) => {
             const itm = response.data;
             setItems(itm.answers.reverse());

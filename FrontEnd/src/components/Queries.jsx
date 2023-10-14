@@ -23,7 +23,7 @@ function Queries() {
 
     setItem(async (item) => {
       try {
-        await Axios.post("http://localhost:5000/api1/postquery", item)
+        await Axios.post("https://farmpro.onrender.com/api1/postquery", item)
           .then((response) => {
             alert("Query Posted");
           })

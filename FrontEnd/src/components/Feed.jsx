@@ -6,7 +6,7 @@ const Feed = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    Axios.get("http://localhost:5000/api1/viewquery").then((response) => {
+    Axios.get("https://farmpro.onrender.com/api1/viewquery").then((response) => {
       const itms = response?.data;
       setItems(itms);
       console.log(itms);
