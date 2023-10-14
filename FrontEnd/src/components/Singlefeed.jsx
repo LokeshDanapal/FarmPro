@@ -85,6 +85,7 @@ const Singlefeed = () => {
           <div className="flex flex-col border-r-2 border-r-gray-300">
             <div className="pt-6 pb-4 flex flex-col justify-center">
               <img
+              src={data?.image}
                 className="border-2 hover:animate-pulse p-1 mx-auto my-1 h-72 w-[28rem] border-zinc-400 rounded-lg"
                 alt="crop"
               />
