@@ -3,7 +3,7 @@ import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { AiOutlineDislike } from "react-icons/ai";
 import { AiOutlineLike } from "react-icons/ai";
 import Comment from "./Comment";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Axios from "axios";
 const Singlefeed = () => {
   const location = useLocation();
@@ -15,6 +15,7 @@ const Singlefeed = () => {
     upvotes: 0,
     date: "",
   });
+
   function handleClick(e) {
     e.preventDefault();
     const qn = data?.question;
@@ -28,6 +29,7 @@ const Singlefeed = () => {
 
     setComment({
       ...comment,
+      upvotes: 0,
       question: qn,
       user: localStorage.getItem("user"),
       date: fullDate,
@@ -37,7 +39,7 @@ const Singlefeed = () => {
       try {
         await Axios.post("http://localhost:5000/api2/answers", item)
           .then((response) => {
-            const itm = response.data;
+            //const itm = response.data;
             // setItems((itms)=>[...itms,itm])
             alert("Comment Updated");
           })
@@ -63,7 +65,7 @@ const Singlefeed = () => {
       </div>
       <hr className="mt-4 w-1/4 h-1 bg-red-300" />
 
-      {/Card Starts/}
+      {/*Card Starts*/}
       <div className="  gap-x-44  rounded-2xl  border-2 border-gray-300 flex  flex-col    max-w-full min-w-0 h-full my-28 col-span-1  bg-zinc-50">
         <div className=" bg-slate-200 shadow-xl border-b-2 border-b-slate-300 font-medium text-2xl">
           <div className="ml-8 mb-2 mt-2">{data?.username}</div>
@@ -76,9 +78,7 @@ const Singlefeed = () => {
                 className="border-2 hover:animate-pulse p-1 mx-auto my-1 h-72 w-[28rem] border-zinc-400 rounded-lg"
                 alt="crop"
               />
-              <button className="mb-4 mt-2 hover:bg-lime-400 bg-lime-300 mx-auto px-4 py-2 feedbox font-semibold  rounded-2xl">
-                Predict Disease
-              </button>
+             
             </div>
             <h2 className="text-center ml-2 font-medium break-words px-4 flex-wrap text-blue-500 text-2xl">
               {data?.question}
@@ -140,7 +140,7 @@ const Singlefeed = () => {
         </div>
       </div>
 
-      {/Card End/}
+      {/*Card End*/}
     </div>
   );
 };
