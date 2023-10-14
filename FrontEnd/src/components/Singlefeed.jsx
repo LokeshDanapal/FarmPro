@@ -3,7 +3,7 @@ import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { AiOutlineDislike } from "react-icons/ai";
 import { AiOutlineLike } from "react-icons/ai";
 import Comment from "./Comment";
-import { useLocation} from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Axios from "axios";
 const Singlefeed = () => {
   const location = useLocation();
@@ -21,11 +21,10 @@ const Singlefeed = () => {
     Axios.post("http://localhost:5000/api2/showAnswers", {
       question: data?.question,
     }).then((response) => {
-      const cmts = response?.data.answers.reverse();
-      setItems(cmts);
-      // setItems(async (item)=>{
-      //         console.log(item)
-      //         })
+      if (response?.data.answers) {
+        const cmts = response.data?.answers?.reverse();
+        setItems(cmts);
+      }
     });
   }, []);
 
