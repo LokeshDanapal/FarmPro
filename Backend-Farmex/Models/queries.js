@@ -8,8 +8,7 @@ const questions = new Schema(
         question : {type : String},
         description : {type : String},
         image : {
-          data:Buffer,
-          contentType : String
+          type : String
         },
     }
 

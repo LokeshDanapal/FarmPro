@@ -1,70 +1,67 @@
-const alert = require("alert")
+const alert = require("alert");
 const queryModel = require("../Models/queries");
 const answerModel = require("../Models/Answers");
 const validator = require("node-input-validator");
 
 addAnswer = async (req, res) => {
   let question = req.body.question;
-  //console.log(question);
-  answerModel
-    .findOne({ question: question })
-    .then(async (question) => {
-      if (!question) {
-        let answers = new answerModel({
-          answer: [
-            {
+  console.log(req.body);
+
+  try {
+    // Try to find the question
+    const existingQuestion = await answerModel.findOne({ question: question });
+
+    if (!existingQuestion) {
+      console.log("Here now");
+      // If the question doesn't exist, create a new one
+      const newAnswers = new answerModel({
+        answer: [
+          {
+            answer: req.body.answer,
+            user: req.body.user,
+            upvotes: req.body.upvotes,
+            date: req.body.date,
+          },
+        ],
+        question: req.body.question,
+      });
+
+      const answerData = await newAnswers.save();
+      res.status(200).json({ message: "Question and Answer Created" });
+    } else {
+      console.log("In else part");
+      // If the question exists, update it with a new answer
+      const data = await answerModel.findOneAndUpdate(
+        { question: question },
+        {
+          $push: {
+            answer: {
               answer: req.body.answer,
               user: req.body.user,
               upvotes: req.body.upvotes,
-              date : req.body.date
-            },
-          ],
-          question: req.body.question,
-        });
-        let answerData = await answers.save();
-
-        return res.redirect("../public/single_ans.html")//res.status(200).json({ message: "Question and Answer Updated" });
-      } else {
-        let answerArray;
-        answerModel.findOneAndUpdate(
-          { question: req.body.question },
-          {
-            $push: {
-              answer: {
-                answer: req.body.answer,
-                user: req.body.user,
-                upvotes: req.body.upvotes,
-                date : req.body.date
-              },
+              date: req.body.date,
             },
           },
-          { new: true },
-          function (error, data) {
-            if (error) {
-              console.log("Error in Update ", error);
-              return res.status(400).json({
-                message: error.message,
-                data: error,
-              });
-            } else {
-              let answers = data.answer;
-              return res.redirect("../public/single_ans.html");
-              // res.status(200).send({
-              //   message: "Answer added Successfully",
-              //   answers: answers,
-              // });
-            }
-          }
-        );
+        },
+        { new: true }
+      ).exec();
+
+      if (data === null) {
+        console.log("Its Null");
+        return res.status(404).json({ message: "Document not found" });
       }
-    })
-    .catch((err) => {
-      return res.status(400).json({
-        message: err.message,
-        data: err,
-      });
+
+      res.json({ answers: data.answer });
+    }
+  } catch (error) {
+    console.log("Error in Update", error);
+    return res.status(400).json({
+      message: error.message,
+      data: error,
     });
+  }
 };
+
 
 displayAnswers = async function (req, res) {
   const Question = req.body.question;
@@ -78,11 +75,10 @@ displayAnswers = async function (req, res) {
         let date = question.createdAt;
         return res.status(200).send({
           answers: answers,
-          date : date,
+          date: date,
           message: "Answer displayed",
         });
       }
-      
     })
     .catch((err) => {
       if (err) {
