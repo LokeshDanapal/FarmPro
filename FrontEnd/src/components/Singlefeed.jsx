@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { AiOutlineDislike } from "react-icons/ai";
 import { AiOutlineLike } from "react-icons/ai";
 import Comment from "./Comment";
-import { useLocation } from "react-router-dom";
+import { useLocation} from "react-router-dom";
 import Axios from "axios";
 const Singlefeed = () => {
   const location = useLocation();
@@ -15,32 +15,43 @@ const Singlefeed = () => {
     upvotes: 0,
     date: "",
   });
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    Axios.post("http://localhost:5000/api2/showAnswers", {
+      question: data?.question,
+    }).then((response) => {
+      const cmts = response?.data.answers.reverse();
+      setItems(cmts);
+      // setItems(async (item)=>{
+      //         console.log(item)
+      //         })
+    });
+  }, []);
 
   function handleClick(e) {
     e.preventDefault();
     const qn = data?.question;
     console.log(qn);
     console.log("Commented");
-    const date = new Date();
-    const day = date.getDate();
-    const month = date.getMonth() + 1;
-    const year = date.getFullYear();
-    const fullDate = `${year}-${month}-${day}`;
+    const currentDate = new Date();
+    const options = { day: "numeric", month: "long", year: "numeric" };
+    const date = currentDate.toLocaleDateString("en-US", options);
 
     setComment({
       ...comment,
       upvotes: 0,
       question: qn,
       user: localStorage.getItem("user"),
-      date: fullDate,
+      date: date,
     });
 
     setComment(async (item) => {
       try {
         await Axios.post("http://localhost:5000/api2/answers", item)
           .then((response) => {
-            //const itm = response.data;
-            // setItems((itms)=>[...itms,itm])
+            const itm = response.data;
+            setItems(itm.answers.reverse());
             alert("Comment Updated");
           })
           .catch(() => {
@@ -78,9 +89,8 @@ const Singlefeed = () => {
                 className="border-2 hover:animate-pulse p-1 mx-auto my-1 h-72 w-[28rem] border-zinc-400 rounded-lg"
                 alt="crop"
               />
-             
             </div>
-            <h2 className="text-center ml-2 font-medium break-words px-4 flex-wrap text-blue-500 text-2xl">
+            <h2 className="text-center mt-6 ml-2 font-medium break-words px-4 flex-wrap text-blue-500 text-2xl">
               {data?.question}
             </h2>
             <h2 className=" ml-8 mr-8 break-words my-4 text-xl">
@@ -127,14 +137,12 @@ const Singlefeed = () => {
               Comments
             </div>
             <div className="mt-10 flex flex-col max-h-[40rem] overflow-auto gap-y-10 ml-16">
-              <Comment />
-              <Comment />
-              <Comment />
-              <Comment />
-
-              <Comment />
-              <Comment />
-              <Comment />
+              {items.map(function (val, index) {
+                {
+                  /* console.log(val+"dgsdg") */
+                }
+                return <Comment key={index} data={val} id={index} />;
+              })}
             </div>
           </div>
         </div>
