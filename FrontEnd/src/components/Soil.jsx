@@ -30,7 +30,7 @@ function Disease() {
 
   async function handleDescribeDisease() {
     try {
-      const describeResponse = await Axios.post("http://localhost:3001/api3/disease", {
+      const describeResponse = await Axios.post("https://farmpro.onrender.com/api3/disease", {
         disease: responseText,
       });
 
