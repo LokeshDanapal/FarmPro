@@ -19,6 +19,7 @@ function Disease() {
         headers: {
           "Content-Type": "multipart/form-data",
         },
+        withCredentials: true,
       });
 
       // Assuming the response data has a 'prediction' property
