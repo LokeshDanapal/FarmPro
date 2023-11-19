@@ -18,6 +18,7 @@ function Disease() {
       const response = await Axios.post("http://localhost:5000/predict", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
+          "Access-Control-Allow-Origin":"*"
         },
       });
 
