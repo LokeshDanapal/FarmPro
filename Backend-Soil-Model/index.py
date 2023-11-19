@@ -8,7 +8,7 @@ import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes in the app
+CORS(app, resources={r"/predict_soil": {"origins": "*"}})  # Enable CORS for all routes in the app
 
 # Define your class labels
 class_labels = {
