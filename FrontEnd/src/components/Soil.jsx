@@ -13,16 +13,12 @@ function Disease() {
   async function handleDisease() {
     try {
       const formData = new FormData();
-      formData.append("file", image);
+      formData.append("image", image); // Use "image" instead of "file"
 
-      const response = await Axios.post("http://localhost:5000/predict", formData, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
+      const response = await Axios.post("http://localhost:4000/predict_soil", formData);
 
-      // Assuming the response data has a 'prediction' property
-      setResponseText(response.data.prediction);
+      // Assuming the response data has a 'class' property
+      setResponseText(response.data.class);
     } catch (error) {
       console.error("Failed to post:", error);
     }
@@ -30,15 +26,15 @@ function Disease() {
 
   async function handleDescribeDisease() {
     try {
-      const describeResponse = await Axios.post("https://farmpro.onrender.com/api3/disease", {
-        disease: responseText,
+      const describeResponse = await Axios.post("https://farmpro.onrender.com/api4/soil", {
+        texture: responseText,
       });
 
-      // Assuming the response data has 'Description', 'Causes', and 'Prevention' properties
+      // Assuming the response data has 'Description', 'Suitable Crops', and 'Maintenance' properties
       setDiseaseDescription({
         Description: describeResponse.data.Description,
-        Causes: describeResponse.data.Causes,
-        Prevention: describeResponse.data.Prevention,
+        Causes: describeResponse.data["Suitable Crops"].join(", "), // Combine array elements into a string
+        Prevention: describeResponse.data.Maintenance,
       });
     } catch (error) {
       console.error("Failed to get disease description:", error);
@@ -69,7 +65,7 @@ function Disease() {
           </div>
           {responseText && (
             <div className="mt-4 text-xl font-bold">
-               {responseText}
+              {responseText}
               <button
                 onClick={handleDescribeDisease}
                 className="ml-4 text-lg font-bold bg-green-600 text-white p-2 rounded-full shadow-2xl"
