@@ -15,11 +15,10 @@ function Disease() {
       const formData = new FormData();
       formData.append("file", image);
 
-      const response = await Axios.post("https://disease-prediction-model.onrender.com/predict", formData, {
+      const response = await Axios.post("http://localhost:5000/predict", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
-        withCredentials: true,
       });
 
       // Assuming the response data has a 'prediction' property
